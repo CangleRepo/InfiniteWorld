@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.infinite.manage</groupId>
+    <artifactId>InfiniteWorld</artifactId>
+    <version>2.0.0</version>
+    <name>infinite_world</name>
+    <packaging>pom</packaging>
+    <properties>
+        <project.version>2.0.0</project.version>
+        <java.version>1.8</java.version>
+        <spring-boot.version>2.5.2</spring-boot.version>
+        <lombok.version>1.18.22</lombok.version>
+        <junit.version>4.13.2</junit.version>
+        <spring.test>2.6.1</spring.test>
+        <jackson-datatype-jts.version>1.0-2.7</jackson-datatype-jts.version>
+        <springdoc-openapi-ui.version>1.5.13</springdoc-openapi-ui.version>
+        <spring.session.version>2.5.3</spring.session.version>
+        <static-utils.version>1.1.0</static-utils.version>
+        <sikpTests>true</sikpTests>
+        <commons-net.version>3.8.0</commons-net.version>
+    </properties>
+    <modules>
+        <module>basics</module>
+        <module>web</module>
+        <module>service</module>
+    </modules>
+</project>
